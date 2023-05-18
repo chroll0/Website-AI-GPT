@@ -1,0 +1,112 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-links-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.navbar-links {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-links li {
+  margin: 0 1.3rem;
+  cursor: pointer;
+  font-family: var(--font-base);
+  color: var(--color-white);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.04em;
+  line-height: 25px;
+}
+.navbar-links li:hover {
+  color: var(--color-Salmon);
+}
+.navbar-login-smallscreen-content {
+  display: flex;
+  align-items: center;
+}
+.navbar-login a {
+  font-family: var(--font-base);
+  color: var(--color-white);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  text-decoration: none;
+  margin-right: 1.625rem;
+}
+.navbar-login a:hover {
+  color: var(--color-Salmon);
+}
+.navbar-logo img {
+  display: flex;
+  align-items: center;
+  margin-right: 1.625rem;
+  width: 62.56px;
+  height: 16.02px;
+}
+.navbar-smallscreen-menu {
+  display: none;
+}
+.navbar-smallscreen-overlay {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  text-align: end;
+  background: var(--color-background);
+  padding: 1rem 2rem;
+  position: absolute;
+  right: 0;
+  top: 100px;
+  margin-top: 1rem;
+  min-width: 210px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-smallscreen-links {
+  list-style: none;
+}
+.navbar-smallscreen-links li {
+  color: var(--color-white);
+  cursor: pointer;
+  font-family: var(--font-base);
+  font-size: 1.4rem;
+  margin: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  line-height: 25px;
+}
+.navbar-smallscreen-links li:hover {
+  color: var(--color-Salmon);
+}
+@media screen and (max-width: 1150px) {
+  .navbar-links {
+    display: none;
+  }
+  .navbar-smallscreen-menu {
+    display: flex;
+    cursor: pointer;
+    margin-left: 1.625rem;
+  }
+}
+@media screen and (max-width: 650px) {
+  .navbar-login {
+    display: none;
+  }
+  .navbar-logo img {
+    margin: 0;
+  }
+  .navbar-smallscreen-overlay {
+    top: 70px;
+  }
+}

@@ -1,0 +1,71 @@
+.cta-container {
+  background: var(--gradient-bar);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 2rem;
+  margin: 4rem;
+  border-radius: 1rem;
+}
+.cta-content {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.cta-content p {
+  font-family: var(--font-base);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 30px;
+  color: #0e0e0e;
+}
+.cta-content h3 {
+  font-family: var(--font-base);
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 45px;
+  color: #000000;
+}
+.cta-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2rem;
+}
+.cta-btn button {
+  background: #000000;
+  color: #fff;
+  font-family: var(--font-base);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  min-width: 150px;
+}
+@media screen and (max-width: 650px) {
+  .cta-container {
+    flex-direction: column;
+  }
+  .cta-btn {
+    margin: 2rem 0 0;
+  }
+}
+@media screen and (max-width: 550px) {
+  .cta-container {
+    flex-direction: column;
+    margin: 4rem 2rem;
+  }
+  .cta-content h3 {
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .cta-btn button {
+    font-size: 14px;
+    line-height: 28px;
+  }
+}
