@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Website-AI-GPT/static/css/main.07073c13.css",
+    "main.js": "/Website-AI-GPT/static/js/main.e7339330.js",
+    "static/media/Header_Illustration.png": "/Website-AI-GPT/static/media/Header_Illustration.107419c57a081e3d8594.png",
+    "static/media/Possibility-image.png": "/Website-AI-GPT/static/media/Possibility-image.6e7a9ca3d911f10a3916.png",
+    "static/media/blog1.png": "/Website-AI-GPT/static/media/blog1.a70724b9d4d51ea2fdd2.png",
+    "static/media/blog3.png": "/Website-AI-GPT/static/media/blog3.c62641909d5d38a2d5e7.png",
+    "static/media/blog4.png": "/Website-AI-GPT/static/media/blog4.2eb6a4d987ef561b575b.png",
+    "static/media/blog5.png": "/Website-AI-GPT/static/media/blog5.e5c3d21d67578e1e28d9.png",
+    "static/media/blog2.png": "/Website-AI-GPT/static/media/blog2.7c37bdc6635ee526957b.png",
+    "static/media/dropbox.png": "/Website-AI-GPT/static/media/dropbox.256390c306b88ca3ec3c.png",
+    "index.html": "/Website-AI-GPT/index.html",
+    "main.07073c13.css.map": "/Website-AI-GPT/static/css/main.07073c13.css.map",
+    "main.e7339330.js.map": "/Website-AI-GPT/static/js/main.e7339330.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07073c13.css",
+    "static/js/main.e7339330.js"
+  ]
+}
